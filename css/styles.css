@@ -23,7 +23,7 @@ form {
 }
 
 .error {
-	border: 3px solid red;
+	border: 3px solid #e74c3c;
 }
 
 #txtSaldoA,#txtSaldoB {
