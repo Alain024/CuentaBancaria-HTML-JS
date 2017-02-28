@@ -1,0 +1,31 @@
+input[type="text"] {
+  margin:5px;
+}
+input[type="button"] {
+	width: 30%;
+}
+
+body {
+	background-color: tomato;
+	margin: 0 auto;
+	width: 40%;
+	margin-top: 250px;
+	border: 2px dashed #000;
+}
+
+h3 {
+	text-align: left;
+}
+
+form {
+	width: 100%;
+	padding: 25px;
+}
+
+.error {
+	border: 3px solid red;
+}
+
+#txtSaldoA,#txtSaldoB {
+	cursor: not-allowed;
+}
