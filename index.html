@@ -8,22 +8,27 @@
 </head>
 <body>
 	<form action="">
-		<h3>Cuenta Principal [A]</h3>
-		<label for="">Saldo a favor: </label>
-		<input type="text" id= "txtSaldoA" value="25000" readonly="" /><br />
-		<label for="">Monto a transferir</label>
-		<input type="text" id="txtMontoA" />
-		<input type="button" value="Transferir a B" id="btnTransferirB" class="btn btn-warning" />
+		<div class="container-A">
+			<h3>Cuenta Principal [A]</h3>
+			<label for="">Saldo a favor: </label>
+			<input type="text" id= "txtSaldoA" value="25000" readonly="" /><br />
+			<label for="">Monto a transferir</label>
+			<div id="campo1">
+				<input type="text" id="txtMontoA" />
+			</div>
+			<input type="button" value="Transferir a B" id="btnTransferirB" class="btn btn-warning" />
+		</div>
 
 		<hr />
 
-		<h3>Cuenta Principal [B]</h3>
-
-		<label for="">Saldo a favor: </label>
-		<input type="text" id= "txtSaldoB" value="10000" readonly="" /><br />
-		<label for="">Monto a transferir</label>
-		<input type="text" id="txtMontoB" />
-		<input type="button" value="Transferir a A" id="btnTransferirA" class="btn btn-warning" />
+		<div class="container-B">
+			<h3>Cuenta Principal [B]</h3>
+			<label for="">Saldo a favor: </label>
+			<input type="text" id= "txtSaldoB" value="10000" readonly="" />
+			<label for="">Monto a transferir</label>
+			<input type="text" id="txtMontoB" />
+			<input type="button" value="Transferir a A" id="btnTransferirA" class="btn btn-warning" />
+		</div>
 	</form>
 
 	<script src="js/logic.js"></script>

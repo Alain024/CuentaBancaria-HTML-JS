@@ -1,20 +1,27 @@
-input[type="text"] {
-  margin:5px;
-}
-input[type="button"] {
-	width: 30%;
-}
-
 body {
-	background-color: tomato;
+	background-color: #8bc34a;
 	margin: 0 auto;
 	width: 40%;
 	margin-top: 250px;
 	border: 2px dashed #000;
 }
 
+label {
+	width: 48%;
+}
+
+input[type="button"] {
+	margin: 5% 0% 0% 24%;
+    width: 50%;
+}
+
+input[type="text"] {
+	width: 40%;
+	text-align: center;
+}
+
 h3 {
-	text-align: left;
+	text-align: center;
 }
 
 form {
@@ -28,4 +35,19 @@ form {
 
 #txtSaldoA,#txtSaldoB {
 	cursor: not-allowed;
+}
+
+.container-A, .container-B {
+	width: 80%;
+    margin: 0 auto;
+}
+
+#campo1 {
+	display: inline-block;
+    width: 40%;
+}
+
+#campo1 input {
+	text-align: center;
+	width: 100%;
 }
